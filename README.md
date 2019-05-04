@@ -1,1 +1,1 @@
-# TrainingProjects
+Coding challenge websites solutions.
