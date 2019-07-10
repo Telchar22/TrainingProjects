@@ -1,0 +1,12 @@
+def even(n):
+    a = n / 2
+    b = 1 + a
+    return int(b)
+
+def countWays(m):
+    if m % 2 == 0:
+        n = m
+        print(even(n))
+    else:
+        n = m - 1
+        print(even(n))
