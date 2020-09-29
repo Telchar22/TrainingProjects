@@ -17,3 +17,17 @@ class Solution:
 nums= [1,1,1,3,3,3]
 p = Solution()
 print(p.numIdenticalPairs(nums))
+
+
+'''
+Option 2 shorter, but both get same memory usage and exc time.
+        counter = 0
+        d = {}
+        for i in nums:
+            if i in d:
+                counter += d[i]
+                d[i] += 1
+            else:
+                d[i] = 1
+        return counter
+'''
