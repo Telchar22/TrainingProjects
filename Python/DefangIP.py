@@ -9,3 +9,10 @@ class Solution:
 ads = "255.255.255.255"
 p = Solution()
 print(p.defangIPaddr(ads))
+
+
+'''
+OR just do
+ads.replace(".", "[.]")
+print(ads.replace(".", "[.]"))
+'''
