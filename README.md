@@ -1,1 +1,1 @@
-Coding challenge websites solutions.
+Short training exercises.
